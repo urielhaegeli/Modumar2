@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "modumar-web",
   "private": true,
@@ -23,3 +24,30 @@
     "vite": "^5.1.6"
   }
 }
+=======
+{
+  "name": "modumar-web",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "framer-motion": "^11.0.8",
+    "lucide-react": "^0.344.0",
+    "clsx": "^2.1.0",
+    "tailwind-merge": "^2.2.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.64",
+    "@types/react-dom": "^18.2.21",
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.1.6"
+  }
+}
+>>>>>>> 94cd7c5759b7c24f539f649715a9103e7086f451
