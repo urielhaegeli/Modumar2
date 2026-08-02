@@ -6,7 +6,7 @@
   z-index: 1000;
   padding: 20px 0; /* Reduced padding to fix cut-off */
   transition: var(--transition-smooth);
-  background: transparent;
+  background: rgba(17, 19, 20, 0.4); /* Añadido un fondo suave */
 }
 
 .header-scrolled {
