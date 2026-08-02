@@ -4,14 +4,15 @@
   left: 0;
   width: 100%;
   z-index: 1000;
-  padding: 20px 0; /* Reduced padding to fix cut-off */
-  transition: var(--transition-smooth);
-  background: rgba(17, 19, 20, 0.4); /* Añadido un fondo suave */
+  padding: 15px 0; /* Padding constante */
+  background: #111314; /* Fondo sólido negro para mayor legibilidad */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Línea sutil para separar */
+  transition: all 0.3s ease;
 }
 
 .header-scrolled {
   padding: 15px 0;
-  background: rgba(17, 19, 20, 0.95);
+  background: #111314;
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
@@ -20,6 +21,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  max-width: 1200px; /* Asegura que no se estire demasiado */
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .logo-container {
